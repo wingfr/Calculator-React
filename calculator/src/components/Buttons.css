@@ -1,0 +1,22 @@
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: transparent;
+    justify-items: center;
+    align-items: center;
+}
+
+.normal-size {
+    width: 90%;
+    height: 90%;
+    border: 0px;
+    border-radius: 15px;
+}
+.normal-size:hover {
+    opacity: 0.5;
+    border: 1px solid blue;
+    transition: border 0.2s;
+}
