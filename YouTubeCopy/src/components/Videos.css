@@ -1,0 +1,81 @@
+.video-container {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(36, 66, 93);
+    width: 280px;
+    height: 270px;
+}
+
+.video-img-container {
+    display: flex;
+    position: relative;
+}
+
+.video-img {
+    width: 270px;
+    height: 152px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.video-length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: white;
+    font-size: 13px;
+}
+
+.video-info-container {
+    display: flex;
+    width: 271px;
+    height: 88px;
+    background-color: beige;
+}
+
+.video-account-icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    background-color: brown;
+    border-radius: 18px;
+    margin-right: 12px;
+}
+
+.video-title-name-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title {
+    font-weight: 500;
+}
+
+.video-channel-name {
+    font-size: 15px;
+    color: #767676;
+}
+
+.video-viewer-date {
+    display: flex;
+    font-size: 15px;
+    color: #767676;
+}
+
+.video-date {
+    font-size: 15px;
+    color: #767676;
+}

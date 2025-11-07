@@ -1,0 +1,135 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+}
+
+.header-first-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-yt-icon-text {
+    display: flex;
+    align-items: center;
+    width: 123px;
+    background-color: aqua;
+    padding: 14px 14px 14px 16px;
+}
+
+.bi-youtube {
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+
+.header-yt-text {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.header-hamburger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.header-second-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-search-input {
+    display: flex;
+    position: relative;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 20px;
+    padding-right: 4px;
+    width: 70%;
+    margin-left: 25px;
+}
+
+.header-search-icon {
+    display: flex;
+    width: 43px;
+    height: 43px;
+    min-width: 40px;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgba(194, 194, 194, 0.393);
+}
+
+
+.header-mic-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.header-third-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.header-creat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 36px;
+    background-color: rgba(197, 197, 197, 0.382);
+    border-radius: 20px;
+
+}
+
+.header-plus-icon {
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+
+.header-create-text {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+.header-notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.header-account-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 4px 13px;
+    background-color: rgb(80, 155, 130);
+}
